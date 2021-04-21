@@ -5,6 +5,12 @@
   max-width: 260px;
 }
 
+.sidebar > hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #49274b;
+}
+
 .sidebar_header {
   display: flex;
   border-bottom: 1px solid #49274b;
@@ -17,22 +23,22 @@
 }
 
 .sidebar_info > h2 {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 5px;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 .sidebar_info > h3 {
-    display: flex;
-    align-items: center;
-    font-size: 0.8rem;
-    font-weight: 400;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
-.sidebar_info > h3 > .MuiSvgIcon-root { 
-    font-size: 1.3rem;
-    margin-right: 0.4rem;
-    color: green;
+.sidebar_info > h3 > .MuiSvgIcon-root {
+  font-size: 1.3rem;
+  margin-right: 0.4rem;
+  color: green;
 }
 
 .sidebar_header > .MuiSvgIcon-root {
