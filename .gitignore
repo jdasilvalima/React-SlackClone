@@ -24,4 +24,4 @@ yarn-debug.log*
 yarn-error.log*
 
 # setting file
-.Firebase.js
+src/setting/Firebase.js
