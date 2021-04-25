@@ -54,7 +54,7 @@ function Sidebar() {
             <hr/>
             <SidebarOption Icon={ExpandMoreIcon} title="Channels"/>
             <hr/>
-            <SidebarOption Icon={AddIcon} title="Add Channel"/>
+            <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel"/>
             <hr/>
 
             { channels.map(channel => (
