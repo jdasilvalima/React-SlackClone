@@ -13,7 +13,7 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 import AddIcon from '@material-ui/icons/Add';
 import SidebarOption from './SidebarOption';
-import db from '../settings/Firebase';
+import db from '../setting/Firebase.js';
 
 function Sidebar() {
     const[ channels, setChannels ] = useState([]);
@@ -54,7 +54,7 @@ function Sidebar() {
             <hr/>
             <SidebarOption Icon={ExpandMoreIcon} title="Channels"/>
             <hr/>
-            <SidebarOption Icon={AddIcon} title="Add Channel"/>
+            <SidebarOption Icon={AddIcon} addChannelOption title="Add Channel"/>
             <hr/>
 
             { channels.map(channel => (
