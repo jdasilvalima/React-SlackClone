@@ -13,10 +13,12 @@ import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
 import PeopleAltIcon from '@material-ui/icons/PeopleAlt';
 import AddIcon from '@material-ui/icons/Add';
 import SidebarOption from './SidebarOption';
+import { useStateValue } from '../components/ReactHooks/StateProvider';
 import db from '../setting/Firebase.js';
 
 function Sidebar() {
     const[ channels, setChannels ] = useState([]);
+    const [{ user }] = useStateValue();
 
     //Run this code ONCE when the sidebar component loads
     useEffect(() => {
@@ -38,7 +40,7 @@ function Sidebar() {
                     <h2>Dev Community</h2>
                     <h3>
                         <FiberManualRecordIcon />
-                        Jade Silva
+                        { user?.displayName}
                     </h3>
                 </div>
                 <CreateIcon/>
