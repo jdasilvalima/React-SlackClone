@@ -1,7 +1,7 @@
 # Slack-Clone Project
 
 The Goal of this project was to learn to use the Front-End Framework React.js.
-@redit to CleverProgrammers
+@Credit to CleverProgrammers
 
 ## Project setup
 
